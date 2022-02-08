@@ -1,4 +1,4 @@
-/* This file contains all the styling for the landing page for the about me page of The VSD project */
+/* This file contains all the styling for the landing page for the about page of The VSD project */
 
 /* The mobile-first approach was used in styling. */
 
@@ -92,7 +92,7 @@ h3 {
   width: 100%;
 }
 
-.aboutHeader {
+.about-header {
   margin: 35px 15px;
   color: #ec5242;
   text-align: center;
@@ -102,55 +102,60 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
-.aboutHeader h3 {
+.about-header h3 {
   margin-bottom: 10px;
 }
 
-.aboutHeader h1 {
+.about-header h1 {
   font-size: 33px;
 }
 
-.aboutBody {
+.about-body {
   margin: 30px 20px 20px 20px;
   background-color: #fff;
   text-align: center;
 }
 
-.aboutBody p {
+.about-body p {
   padding: 15px;
   color: #272a31;
 }
 
-.aboutDescription {
+.about-description {
   color: #272a31;
   margin: 24px 24px 0 24px;
   padding-bottom: 45px;
   text-align: center;
 }
 
-.aboutDescription p {
+.about-description p {
   margin-bottom: 6px;
 }
 
 @media screen and (min-width: 768px) {
-  .aboutHeader h3 {
+  .desktop-nav,
+  .logo {
+    display: block;
+  }
+
+  .about-header h3 {
     font-size: 27px;
   }
 
-  .aboutHeader h1 {
+  .about-header h1 {
     font-size: 45px;
   }
 
-  .aboutHeader h2 {
+  .about-header h2 {
     font-size: 32px;
   }
 
-  .aboutBody p {
+  .about-body p {
     font-size: 18px;
     padding: 15px;
   }
 
-  .aboutDescrioption p {
+  .about-descrioption p {
     font-size: 18px;
     padding: 5px;
   }

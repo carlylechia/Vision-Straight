@@ -98,7 +98,7 @@ h3 {
   width: 100%;
 }
 
-.landingHeader {
+.landing-header {
   margin: 35px 15px;
   color: #ec5242;
   background-image: url(../images/mask-img.webp);
@@ -107,31 +107,31 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
-.landingHeader h3 {
+.landing-header h3 {
   margin-bottom: 10px;
 }
 
-.landingHeader h1 {
+.landing-header h1 {
   font-size: 33px;
 }
 
-.landingBody {
+.landing-body {
   margin: 30px 20px 20px 20px;
   border: 4px solid #fff;
 }
 
-.landingBody p {
+.landing-body p {
   padding: 15px;
   color: #272a31;
 }
 
-.landingDesc {
+.landing-description {
   color: #272a31;
   margin: 24px 24px 0 24px;
   padding-bottom: 45px;
 }
 
-.landingDesc h2 {
+.landing-description h2 {
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 30px;
 }
@@ -156,8 +156,6 @@ h3 {
   border-bottom: 4px solid #ec5242;
   margin: 0 40%;
 }
-
-/* Individual judges */
 
 .vsb-judges {
   margin: 24px 30px 0 30px;
@@ -223,28 +221,28 @@ h3 {
   font-size: 16px;
 }
 
-.dayProgram {
+.day-program {
   width: 100%;
   background: #272a31;
 }
 
-.dayProgramHeader {
+.program-header {
   text-align: center;
   padding: 24px 0;
 }
 
-.dayProgram h2 {
+.day-program h2 {
   margin-bottom: 15px;
   color: #fff;
   font-size: 32px;
 }
 
-.dayProgram hr {
+.day-program hr {
   border-bottom: 4px solid #ec5242;
   margin: 0 40%;
 }
 
-.individualActivity {
+.weekly-activities {
   margin: 24px 20px 0 20px;
   padding-bottom: 20px;
 }
@@ -311,23 +309,23 @@ button:active {
   background: #272a31;
 }
 
-.partnersHeader {
+.partners-header {
   text-align: center;
   padding: 24px 0;
 }
 
-.partnersHeader h2 {
+.partners-header h2 {
   margin-bottom: 15px;
   color: #fff;
   font-size: 32px;
 }
 
-.partnersHeader hr {
+.partners-header hr {
   border-bottom: 4px solid #ec5242;
   margin: 0 40%;
 }
 
-.partnersSect {
+.vsb-partners {
   margin: 10px 16px 0 16px;
   padding-bottom: 30px;
   display: flex;
@@ -335,7 +333,7 @@ button:active {
   flex-wrap: wrap;
 }
 
-.partnersSect h3 {
+.vsb-partners h3 {
   opacity: 0.6;
   padding: 8px;
   color: #d3d3d3;
@@ -348,22 +346,43 @@ button:active {
   justify-content: center;
 }
 
-.footer .footerLeft {
+.footer .footer-left {
   flex: 1;
   margin: auto auto;
 }
 
-.footer .footerLeft img {
+.footer .footer-left img {
   max-width: 100%;
   width: 100px;
 }
 
-.footer .footerRight {
+.footer .footer-right {
   margin: auto auto;
   flex: 2;
 }
 
-.footerRight p {
+.footer-right p {
   font-size: 17px;
   color: #272a31;
+}
+
+#more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  width: 100vw;
+  height: 70px;
+  border: 1px solid goldenrod;
+  border-radius: 5px;
+}
+
+#more-btn p {
+  margin-right: 10px;
+  font-size: 1.3rem;
+  color: #666;
+}
+
+#hide {
+  display: none;
 }
