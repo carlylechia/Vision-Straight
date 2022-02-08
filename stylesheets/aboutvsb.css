@@ -106,7 +106,7 @@ h3 {
 .event1 {
   text-align: center;
   color: #fff;
-  background: linear-gradient(rgba(128, 0, 0, 0.6), rgba(128, 0, 0, 0.7)), url(../../images/crowd1.jpg);
+  background: linear-gradient(rgba(128, 0, 0, 0.6), rgba(128, 0, 0, 0.7)), url(../images/vsb-group-pic.jpeg);
   background-size: cover;
   background-position: center;
   height: 30vh;
@@ -130,7 +130,7 @@ h3 {
 .event2 {
   text-align: center;
   color: #fff;
-  background: linear-gradient(rgba(128, 0, 0, 0.7), rgba(128, 0, 0, 0.7)), url(../../images/crowd2.jpeg);
+  background: linear-gradient(rgba(128, 0, 0, 0.7), rgba(128, 0, 0, 0.7)), url(../images/vsb-group-pic.jpeg);
   background-size: cover;
   background-position: center;
   height: 30vh;
@@ -155,7 +155,7 @@ h3 {
 .event3 {
   text-align: center;
   color: #fff;
-  background: linear-gradient(rgba(128, 0, 0, 0.7), rgba(128, 0, 0, 0.7)), url(../../images/crowd2.jpeg);
+  background: linear-gradient(rgba(128, 0, 0, 0.7), rgba(128, 0, 0, 0.7)), url(../images/vsb-group-pic.jpeg);
   background-size: cover;
   background-position: center;
   height: 30vh;
