@@ -254,6 +254,10 @@
   #hide {
     display: flex;
   }
+
+  .hide {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1080px) {
@@ -436,6 +440,10 @@
   }
 
   #hide {
+    display: flex;
+  }
+
+  .hide {
     display: flex;
   }
 }
