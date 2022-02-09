@@ -357,7 +357,7 @@
     width: 18%;
     display: block;
     text-align: center;
-    height: 70vh;
+    height: 50vh;
   }
 
   .activity img {
@@ -365,7 +365,7 @@
     width: 37%;
     height: 34%;
     max-width: 200px;
-    min-height: 200px;
+    max-height: 100px;
   }
 
   .activity p {
