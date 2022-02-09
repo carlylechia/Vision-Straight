@@ -85,7 +85,7 @@ function loadSection() {
     judgesSection.innerHTML = `${judgesSection.innerHTML}
     <div class="judge ${vsbJudges[i].class}">
           <div class="judgeLeft">
-            <img class="jj" src="${vsbJudges[i].judgeImg}" alt="${vsbJudges[i].alt}">
+            <img class="j-image" src="${vsbJudges[i].judgeImg}" alt="${vsbJudges[i].alt}">
             <img class="bg" src="${vsbJudges[i].chessBoard}" alt="">
           </div>
           <div class="judgeRight">

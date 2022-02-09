@@ -1,73 +1,72 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# THE VISION STRAIGHT DISCOVERY (VSD) SHOW
 
-> Description the project.
+> This project is based on a fictitious musical talent event named above, organized by the Vision Straight Brothers (VSB) crew in Bamenda, Cameroon. This is to attest that I, Chia Carlyle, have completed the first module of the Microverse curriculum called, ***The Portal***.
+Click the link in the `Live Demo` section to check it out.
 
+![desktop-home](images/desktop-home.png)
+![mobile-home](images/mobile-home.png)
+![desktop-about](images/desktop-about.png)
+![mobile-about](images/mobile-about.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, Javascript.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+If you want to be redirected to the project site, click on [this link](https://carlylechia.github.io/Vision-Straight/index.html)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+You will need:
+ - A laptop or tablet, preferably a laptop;
+ - A browser installed like Chrome, Firefox, etc;
+ - A text editor like installed Atom, VS-code, etc;
+ - Terminal or commandline;
+ - Internet connection.
 
-### Setup
+### Setup, Install, and Usage
+Follow these steps:
+  - Create a folder in the local storage of your computer which will contain the repository;
+  - open your browser and go to [the project's repository on github](https://github.com/carlylechia/Vision-Straight);
+  - Click on the `code button` and copy the https link that is provided on the dropdown;
+  - open terminal or commandline from the folder you created in the first step, and type in the command, "git clone " and then paste the url you copied on the previous step.
+  - finally, you have the repository on your local computer storage. You can now open your text editor and import the repositor to make changes.
 
-### Install
-
-### Usage
-
-### Run tests
 
 ### Deployment
 
-
+This project was deployed on github pages.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@carlylechia](https://github.com/carlylechia)
+- Twitter: [@CarlyleChia](https://twitter.com/CarlyleChia)
+- LinkedIn: [Chia Carlyle](https://linkedin.com/in/chia-carlyle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/carlylechia/Vision-Straight/issues). I will love to improve by solving the issues you raise.
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Kindly give a ⭐️ if you like this project.
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to [Cindy Shin in Behance](https://www.behance.net/adagio07) for building the design template that was used in coding this project.
+- I am grateful to @Microverseinc for guiding me through the acquisition of the knowledge used in building this project.
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](MIT.md) licensed.

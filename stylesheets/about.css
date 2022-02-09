@@ -69,8 +69,9 @@ h3 {
   padding: 12px;
 }
 
-.aboutDescription p a {
-  color: #272a31;
+.about-description p a {
+  color: #111;
+  font-weight: 900;
   transition: 0.5s;
 }
 
@@ -80,7 +81,7 @@ h3 {
   transition: 0.5s;
 }
 
-.aboutDescrioption p a:hover {
+.about-description p a:hover {
   color: #ec5242;
 }
 
@@ -96,7 +97,7 @@ h3 {
   margin: 35px 15px;
   color: #ec5242;
   text-align: center;
-  background-image: url(../images/aboutmask.webp);
+  background-image: url(../images/text-bg.jpeg);
   background-clip: content-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

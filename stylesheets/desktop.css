@@ -166,7 +166,6 @@
     width: 30%;
     display: block;
     text-align: center;
-    height: 60vh;
   }
 
   .activity p {
@@ -186,6 +185,15 @@
     border: 0;
     background: 0;
     text-decoration: underline;
+  }
+
+  .j-image {
+    height: 300px;
+    position: relative;
+  }
+
+  .bj {
+    position: relative;
   }
 
   .judges-heading {
@@ -218,14 +226,15 @@
   }
 
   .partners-header hr {
-    margin: 0 47%;
+    width: 8vw;
+    margin: 0 46%;
   }
 
   .vsb-partners {
     display: flex;
     justify-content: center;
     margin: 6% 100px 0 100px;
-    padding-bottom: 6%;
+    padding: 6% 0;
   }
 
   .vsb-partners h3 {
@@ -242,6 +251,7 @@
     background: #f1f5f7;
     margin: 0;
     position: relative;
+    padding: 5vw 0;
   }
 
   .footer-left img {
@@ -358,9 +368,9 @@
 
   .activity {
     width: 18%;
+    height: 45vh;
     display: block;
     text-align: center;
-    height: 75vh;
   }
 
   .activity img {
@@ -373,7 +383,8 @@
 
   .activity p {
     font-size: 17px;
-    line-height: 1.7vw;
+    padding: 10px;
+    line-height: 1.5vw;
   }
 
   .join-btn button {
