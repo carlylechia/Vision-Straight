@@ -1,0 +1,163 @@
+/* This file contains all the styling for the landing page for the about page of The VSD project */
+
+/* The mobile-first approach was used in styling. */
+
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+p {
+  font-size: 17px;
+}
+
+p,
+h2,
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+.desktop-nav,
+.logo {
+  display: none;
+}
+
+.header {
+  width: 100%;
+  background: url(../images/background-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  position: relative;
+}
+
+.menu-btn {
+  height: 7%;
+}
+
+.menu-btn a img {
+  width: 30px;
+  margin: 24px 24px;
+}
+
+.mobile-nav {
+  display: none;
+  width: 100%;
+  background: #fff;
+}
+
+.mobile-nav ul li {
+  list-style-type: none;
+  text-align: center;
+  padding: 12px;
+}
+
+.about-description p a {
+  color: #111;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+.mobile-nav ul li a {
+  text-decoration: none;
+  color: #272a31;
+  transition: 0.5s;
+}
+
+.about-description p a:hover {
+  color: #ec5242;
+}
+
+.mobile-nav ul li a:hover {
+  color: #ec5242;
+}
+
+.main {
+  width: 100%;
+}
+
+.about-header {
+  margin: 35px 15px;
+  color: #ec5242;
+  text-align: center;
+  background-image: url(../images/text-bg.jpeg);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-header h3 {
+  margin-bottom: 10px;
+}
+
+.about-header h1 {
+  font-size: 33px;
+}
+
+.about-body {
+  margin: 30px 20px 20px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about-body p {
+  padding: 15px;
+  color: #272a31;
+}
+
+.about-description {
+  color: #272a31;
+  margin: 24px 24px 0 24px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+.about-description p {
+  margin-bottom: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-nav,
+  .logo {
+    display: block;
+  }
+
+  .about-header h3 {
+    font-size: 27px;
+  }
+
+  .about-header h1 {
+    font-size: 45px;
+  }
+
+  .about-header h2 {
+    font-size: 32px;
+  }
+
+  .about-body p {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .about-description p {
+    font-size: 18px;
+    padding: 5px;
+  }
+}
