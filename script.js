@@ -41,7 +41,7 @@ const vsbJudges = [
     judgeDesc: 'Talented and award-winning artist and a boss in the new school music brand. Has tons of experience as well.',
   },
   {
-    id: 'hide',
+    class: 'hide hideable',
     judgeImg: 'images/T-Mario.jpeg',
     alt: 'T-Mario',
     chessBoard: 'images/chessboard.png',
@@ -50,7 +50,7 @@ const vsbJudges = [
     judgeDesc: 'The media and tech lieson of Vision Straight inc.',
   },
   {
-    id: 'hide',
+    class: 'hide hideable',
     judgeImg: 'images/Tripp.jpeg',
     alt: 'Tripp',
     chessBoard: 'images/chessboard.png',
@@ -59,7 +59,7 @@ const vsbJudges = [
     judgeDesc: 'Takes charge of business; assists in diploamtic decision-making; Is also the main hype guy of VSB.',
   },
   {
-    id: 'hide',
+    class: 'hide hideable',
     judgeImg: 'images/Drico.jpeg',
     alt: 'Drico',
     chessBoard: 'images/chessboard.png',
@@ -68,7 +68,7 @@ const vsbJudges = [
     judgeDesc: 'The president of VSB. Makes the diplomatic decisions.',
   },
   {
-    id: 'hide',
+    class: 'hide hideable',
     judgeImg: 'images/Belto.jpeg',
     alt: 'Belto',
     chessBoard: 'images/chessboard.png',
@@ -83,7 +83,7 @@ function loadSection() {
   judgesSection.innerHTML = '';
   for (let i = 0; i < vsbJudges.length; i += 1) {
     judgesSection.innerHTML = `${judgesSection.innerHTML}
-    <div class="judge" id="${vsbJudges[i].id}">
+    <div class="judge ${vsbJudges[i].class}">
           <div class="judgeLeft">
             <img class="jj" src="${vsbJudges[i].judgeImg}" alt="${vsbJudges[i].alt}">
             <img class="bg" src="${vsbJudges[i].chessBoard}" alt="">
@@ -96,6 +96,14 @@ function loadSection() {
         </div>`;
   }
 }
+
+function togglecontent() {
+  const hideContent = document.querySelectorAll('.hideable');
+  hideContent.forEach((item) => item.classList.toggle('hide'));
+}
+
+const moreContent = document.querySelector('#more-btn');
+moreContent.addEventListener('click', togglecontent);
 
 window.addEventListener('load', () => {
   loadSection();

@@ -369,11 +369,12 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
-  width: 100vw;
+  margin: 5px auto 25px auto;
+  width: 80vw;
   height: 70px;
   border: 1px solid goldenrod;
   border-radius: 5px;
+  transition: transform 0.5s ease-out;
 }
 
 #more-btn p {
@@ -382,8 +383,9 @@ button:active {
   color: #666;
 }
 
-#hide {
-  display: none;
+#more-btn:hover {
+  background-color: antiquewhite;
+  transform: scale(1.2);
 }
 
 .hide {

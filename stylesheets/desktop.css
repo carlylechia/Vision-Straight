@@ -251,10 +251,6 @@
     display: none;
   }
 
-  #hide {
-    display: flex;
-  }
-
   .hide {
     display: flex;
   }
@@ -361,7 +357,7 @@
     width: 18%;
     display: block;
     text-align: center;
-    height: 55vh;
+    height: 70vh;
   }
 
   .activity img {
@@ -428,19 +424,15 @@
   }
 
   footer .footer-left img {
-    left: 34vw;
+    left: 39vw;
   }
 
   footer .footer-right p {
-    left: 18vw;
+    left: 15vw;
   }
 
   .more-btn {
     display: none;
-  }
-
-  #hide {
-    display: flex;
   }
 
   .hide {
