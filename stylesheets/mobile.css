@@ -374,7 +374,7 @@ button:active {
   height: 70px;
   border: 1px solid goldenrod;
   border-radius: 5px;
-  transition: transform 0.5s ease-out;
+  transition: transform 1s ease-out;
 }
 
 #more-btn p {
@@ -383,7 +383,7 @@ button:active {
   color: #666;
 }
 
-#more-btn:hover {
+#more-btn:active {
   background-color: antiquewhite;
   transform: scale(1.2);
 }
