@@ -141,13 +141,13 @@ h3 {
 .event2 h2 {
   font-size: 33px;
   position: absolute;
-  bottom: 55%;
+  bottom: 75%;
   left: 40%;
 }
 
 .event2 p {
   position: absolute;
-  bottom: 30%;
+  top: 25%;
   left: 7%;
   margin-right: 12px;
 }
@@ -166,13 +166,13 @@ h3 {
 .event3 h2 {
   font-size: 33px;
   position: absolute;
-  bottom: 60%;
+  bottom: 80%;
   left: 40%;
 }
 
 .event3 p {
   position: absolute;
-  bottom: 30%;
+  top: 25%;
   left: 7%;
   margin-right: 12px;
 }
@@ -249,7 +249,7 @@ h3 {
   }
 
   .event3 h2 {
-    top: 18%;
+    top: 15%;
     left: 30%;
   }
 

@@ -40,8 +40,12 @@ Follow these steps:
 
 
 ### Deployment
+ 
+This project was deployed on github pages. [This is the link](https://carlylechia.github.io/Vision-Straight/index.html).
 
-This project was deployed on github pages.
+### Documentation
+
+I have recorded [a loom video](https://www.loom.com/share/8ac3176a9f0a4cf0b0cadfaacb2ca02b) briefly throwing some light on the project.
 
 ## Authors
 
@@ -65,7 +69,7 @@ Kindly give a ⭐️ if you like this project.
 ## Acknowledgments
 
 - Hat tip to [Cindy Shin in Behance](https://www.behance.net/adagio07) for building the design template that was used in coding this project.
-- I am grateful to @Microverseinc for guiding me through the acquisition of the knowledge used in building this project.
+- I am grateful to @Microverseinc and their effective code review process for guiding me through the acquisition of the knowledge used in building this project.
 
 ## 📝 License
 
