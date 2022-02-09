@@ -158,6 +158,7 @@
     margin: 0 9%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 15px;
   }
 
@@ -165,6 +166,11 @@
     width: 30%;
     display: block;
     text-align: center;
+    height: 40vh;
+  }
+
+  .activity p {
+    line-height: 1.6vw;
   }
 
   .activity img {
@@ -237,9 +243,8 @@
 
   .footer-left img {
     position: relative;
-    left: 45%;
     width: 60%;
-    margin-left: 20%;
+    left: 0;
   }
 
   #more-btn {
@@ -352,6 +357,7 @@
     width: 18%;
     display: block;
     text-align: center;
+    height: 55vh;
   }
 
   .activity img {
@@ -362,7 +368,6 @@
 
   .activity p {
     font-size: 17px;
-    height: 50vh;
   }
 
   .join-btn button {
