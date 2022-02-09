@@ -364,6 +364,8 @@
     padding-top: 10px;
     width: 37%;
     height: 34%;
+    max-width: 200px;
+    min-height: 200px;
   }
 
   .activity p {
