@@ -30,7 +30,7 @@ const vsbJudges = [
     chessBoard: 'images/chessboard.png',
     judgeName: 'Chia (CEO) Carlyle',
     judgeTitle: 'Founder and CEO, VSR',
-    judgeDesc: 'The brains behind the show. He is also an award-winning artist and decades of experience under his belt.',
+    judgeDesc: 'The brains behind the show. Musical genius. He is also an award-winning artist with decades of experience under his belt.',
   },
   {
     judgeImg: 'images/Double-T.jpeg',
@@ -38,7 +38,7 @@ const vsbJudges = [
     chessBoard: 'images/chessboard.png',
     judgeName: 'Ankinibom (Double-T) Karl',
     judgeTitle: 'Founder of VSB, COO of VSR',
-    judgeDesc: 'Talented and award-winning artist and a boss in the new school music brand. Has tons of experience as well.',
+    judgeDesc: 'Talented and award-winning artist and a boss in the new school music brand. Lyrical royalty. Has tons of experience as well.',
   },
   {
     class: 'hide hideable',
