@@ -192,10 +192,6 @@
     position: relative;
   }
 
-  .bj {
-    position: relative;
-  }
-
   .judges-heading {
     padding-top: 37px;
     text-align: center;
@@ -219,6 +215,11 @@
   .partners-header {
     padding-top: 37px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 45%;
   }
 
   .partners-header h2 {
@@ -412,7 +413,7 @@
     gap: 50px;
   }
 
-  .partners-header {
+  /* .partners-header {
     padding-top: 40px;
     text-align: center;
   }
@@ -423,7 +424,7 @@
 
   .partners-header hr {
     margin: 0 46%;
-  }
+  } */
 
   .vsb-partners {
     margin: 6% 16vh 0 16vh;

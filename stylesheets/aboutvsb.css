@@ -261,6 +261,13 @@ h3 {
     font-size: 16px;
     line-height: 1.5vw;
   }
+
+  .vsb-partners {
+    display: flex;
+    justify-content: center;
+    margin: 6% 100px 0 100px;
+    padding: 10% 0;
+  }
 }
 
 @media screen and (min-width: 1080px) {
@@ -310,9 +317,5 @@ h3 {
     position: absolute;
     bottom: 15%;
     font-size: 19px;
-  }
-
-  .vsb-partners {
-    padding-top: 10vw;
   }
 }
