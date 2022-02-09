@@ -33,7 +33,7 @@ const vsbJudges = [
     judgeDesc: 'The brains behind the show. He is also an award-winning artist and decades of experience under his belt.',
   },
   {
-    judgeImg: 'images/Double-T.jpg',
+    judgeImg: 'images/Double-T.jpeg',
     alt: 'Double-T',
     chessBoard: 'images/chessboard.png',
     judgeName: 'Ankinibom (Double-T) Karl',
