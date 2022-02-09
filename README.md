@@ -45,7 +45,7 @@ This project was deployed on github pages. [This is the link](https://carlylechi
 
 ### Documentation
 
-I have recorded [a loom video](https://www.loom.com/share/8ac3176a9f0a4cf0b0cadfaacb2ca02b) briefly throwing some light on the project.
+I have recorded [a loom video](https://www.loom.com/share/8ac3176a9f0a4cf0b0cadfaacb2ca02b) briefly throwing some light on the project. Feel free to check it out.
 
 ## Authors
 
