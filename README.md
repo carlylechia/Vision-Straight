@@ -14,9 +14,9 @@ Click the link in the `Live Demo` section to check it out.
 
 - HTML, CSS, Javascript.
 
-## Live Demo (if available)
+## Live Demo
 
-If you want to be redirected to the project site, click on [this link](https://carlylechia.github.io/Vision-Straight/index.html)
+If you want to be redirected to the project site, click on [this link](https://carlylechia.github.io/Vision-Straight/)
 
 ## Getting Started
 
@@ -36,12 +36,12 @@ Follow these steps:
   - open your browser and go to [the project's repository on github](https://github.com/carlylechia/Vision-Straight);
   - Click on the `code button` and copy the https link that is provided on the dropdown;
   - open terminal or commandline from the folder you created in the first step, and type in the command, "git clone " and then paste the url you copied on the previous step.
-  - finally, you have the repository on your local computer storage. You can now open your text editor and import the repositor to make changes.
+  - finally, you have the repository on your local computer storage. You can now open your text editor and import the repository to start making changes.
 
 
 ### Deployment
  
-This project was deployed on github pages. [This is the link](https://carlylechia.github.io/Vision-Straight/index.html).
+This project was deployed on github pages. [This is the link](https://carlylechia.github.io/Vision-Straight/).
 
 ### Documentation
 

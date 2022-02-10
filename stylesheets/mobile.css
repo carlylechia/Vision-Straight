@@ -1,7 +1,3 @@
-/* This file contains all the styling for the index/home page of the mobile version of the VSD poroject. */
-
-/* The styling is done in descending order, so it's easy to follow through. */
-
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 * {
@@ -117,7 +113,8 @@ h3 {
 
 .landing-body {
   margin: 30px 20px 20px 20px;
-  border: 4px solid #fff;
+  border: 4px solid #f3f2f2;
+  background-color: #fff;
 }
 
 .landing-body p {
