@@ -1,1 +1,446 @@
-/* This is an empty file */
+@media screen and (min-width: 768px) {
+  .mobile-nav,
+  .menu-btn {
+    display: none;
+  }
+
+  .desktop-nav,
+  .logo,
+  .social-icons {
+    display: block;
+  }
+
+  .social-icons {
+    width: 100%;
+    background: #272a31;
+  }
+
+  .social-icons ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+  }
+
+  .social-icons ul li {
+    list-style-type: none;
+    padding: 10px 0;
+    transition: transform 0.5s;
+  }
+
+  .desktop-nav ul li {
+    list-style-type: none;
+    margin-right: 20px;
+  }
+
+  .social-icons ul li:hover {
+    transform: translateY(-4px);
+  }
+
+  .social-icons ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 20px;
+    transition: 0.5s;
+  }
+
+  .desktop-nav ul li a {
+    text-decoration: none;
+    color: #272a31;
+    font-size: 18px;
+    transition: transform 0.5s;
+  }
+
+  .social-icons ul li a:hover {
+    color: #1858e4;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .top-navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+  }
+
+  .logo img {
+    width: 100px;
+    margin-left: 50px;
+    animation: bouge 0.92s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    animation-iteration-count: 1;
+    transform: translateX(0);
+  }
+
+  @keyframes bouge {
+    10%,
+    90% {
+      transform: translateX(-1px);
+    }
+
+    20%,
+    80% {
+      transform: translateX(2px);
+    }
+
+    30%,
+    50%,
+    70% {
+      transform: translateX(-4px);
+    }
+
+    40%,
+    60% {
+      transform: translateX(4px);
+    }
+  }
+
+  .desktop-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-right: 20px;
+  }
+
+  .desktop-nav ul li a:hover {
+    transform: translateY(-8px);
+    color: #ec5242;
+  }
+
+  .desktop-nav ul .bordered {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    padding: 10px;
+  }
+
+  .desktop-nav ul .bordered:hover {
+    color: #272a31;
+    border: 2px solid #272a31;
+    padding: 8px;
+  }
+
+  .landing {
+    margin: 7% 13% 0 13%;
+    padding-bottom: 7%;
+  }
+
+  .landing-header h3 {
+    font-size: 27px;
+  }
+
+  .landing-header h1 {
+    font-size: 45px;
+  }
+
+  .landing-description h2 {
+    font-size: 32px;
+  }
+
+  .landing-description p {
+    font-size: 18px;
+  }
+
+  .program-header {
+    padding-top: 37px;
+    text-align: center;
+  }
+
+  .program-header h2 {
+    font-size: 33px;
+  }
+
+  .program-header hr {
+    margin: 0 47%;
+  }
+
+  .weekly-activities {
+    margin: 0 9%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .activity {
+    width: 30%;
+    display: block;
+    text-align: center;
+  }
+
+  .activity p {
+    line-height: 1.6vw;
+    padding: 0 10px 12px 10px;
+  }
+
+  .activity img {
+    padding-top: 10px;
+    width: 38%;
+    height: 35%;
+    max-width: 150px;
+    max-height: 90px;
+  }
+
+  .join-btn button {
+    border: 0;
+    background: 0;
+    text-decoration: underline;
+  }
+
+  .j-image {
+    height: 300px;
+    position: relative;
+  }
+
+  .judges-heading {
+    padding-top: 37px;
+    text-align: center;
+  }
+
+  .judges-heading h2 {
+    font-size: 33px;
+  }
+
+  .judges-heading hr {
+    margin: 0 47%;
+  }
+
+  .vsb-judges {
+    margin: 5% 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
+
+  .partners-header {
+    padding-top: 37px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 45%;
+  }
+
+  .partners-header h2 {
+    font-size: 33px;
+  }
+
+  .partners-header hr {
+    width: 8vw;
+    margin: 0 46%;
+  }
+
+  .vsb-partners {
+    display: flex;
+    justify-content: center;
+    margin: 6% 100px 0 100px;
+    padding: 6% 0;
+  }
+
+  .vsb-partners h3 {
+    font-size: 25px;
+  }
+
+  .footer-right p {
+    font-size: 19px;
+    position: relative;
+    left: 16%;
+  }
+
+  .footer {
+    background: #f1f5f7;
+    margin: 0;
+    position: relative;
+    padding: 5vw 0;
+  }
+
+  .footer-left img {
+    position: relative;
+    width: 60%;
+    left: 0;
+  }
+
+  #more-btn {
+    display: none;
+  }
+
+  .hide {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .mobile-nav,
+  .menu-btn {
+    display: none;
+  }
+
+  .desktop-nav,
+  .logo {
+    display: block;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .top-navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+  }
+
+  .logo img {
+    width: 150px;
+    margin-left: 70px;
+  }
+
+  .desktop-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-right: 50px;
+  }
+
+  .desktop-nav ul li {
+    list-style-type: none;
+    margin-right: 40px;
+  }
+
+  .desktop-nav ul li a {
+    text-decoration: none;
+    color: #272a31;
+    font-size: 19px;
+    transition: 0.5s;
+  }
+
+  .desktop-nav ul li a:hover {
+    color: #ec5242;
+  }
+
+  .desktop-nav ul .bordered {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    padding: 10px;
+  }
+
+  .landing {
+    margin: 8% 15% 0 15%;
+    padding-bottom: 8%;
+  }
+
+  .landing-header h3 {
+    font-size: 29px;
+  }
+
+  .landing-header h1 {
+    font-size: 50px;
+  }
+
+  .landing-description h2 {
+    font-size: 34px;
+  }
+
+  .landing-description p {
+    font-size: 20px;
+  }
+
+  .program-header {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .program-header h2 {
+    font-size: 35px;
+  }
+
+  .program-header hr {
+    margin: 0 46%;
+  }
+
+  .weekly-activities {
+    text-align: center;
+    margin: 0 6%;
+    display: flex;
+    gap: 20px;
+  }
+
+  .activity {
+    width: 18%;
+    height: 45vh;
+    display: block;
+    text-align: center;
+  }
+
+  .activity img {
+    padding-top: 10px;
+    width: 37%;
+    height: 34%;
+    max-width: 200px;
+    max-height: 100px;
+  }
+
+  .activity p {
+    font-size: 17px;
+    padding: 10px;
+    line-height: 1.5vw;
+  }
+
+  .join-btn button {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .judges-heading {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .judges-heading h2 {
+    font-size: 35px;
+  }
+
+  .judges-heading hr {
+    margin: 0 46%;
+  }
+
+  .vsb-judges {
+    margin: 7% 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .vsb-partners {
+    margin: 6% 16vh 0 16vh;
+    padding-bottom: 7%;
+  }
+
+  .vsb-partners h3 {
+    font-size: 29px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .footer-left img {
+    left: 39vw;
+  }
+
+  footer .footer-right p {
+    left: 15vw;
+  }
+
+  .more-btn {
+    display: none;
+  }
+
+  .hide {
+    display: flex;
+  }
+}
