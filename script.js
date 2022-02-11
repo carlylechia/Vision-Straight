@@ -2,6 +2,8 @@ const menu = document.querySelector('#menu');
 const mobileNav = document.querySelector('.mobile-nav');
 const menulist = document.querySelectorAll('#nav li a');
 
+mobileNav.style.display = 'none';
+
 function toggleMenu() {
   if (mobileNav.style.display === 'none') {
     mobileNav.style.display = 'block';
