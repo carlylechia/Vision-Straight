@@ -166,6 +166,7 @@
     width: 30%;
     display: block;
     text-align: center;
+    border: 2px solid snow;
   }
 
   .activity p {
