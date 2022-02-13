@@ -97,10 +97,11 @@ h3 {
 .landing-header {
   margin: 35px 15px;
   color: #ec5242;
-  background-image: url(../images/text-bg.jpeg);
+
+  /* background-image: url(../images/text-bg.jpeg);
   background-clip: content-box;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .landing-header h3 {

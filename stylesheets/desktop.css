@@ -125,6 +125,13 @@
     padding-bottom: 7%;
   }
 
+  .landing-header {
+    background-image: url(../images/text-bg.jpeg);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .landing-header h3 {
     font-size: 27px;
   }

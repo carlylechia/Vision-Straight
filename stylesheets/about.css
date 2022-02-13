@@ -93,10 +93,6 @@ h3 {
   margin: 35px 15px;
   color: #ec5242;
   text-align: center;
-  background-image: url(../images/text-bg.jpeg);
-  background-clip: content-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .about-header h3 {
@@ -133,6 +129,13 @@ h3 {
   .desktop-nav,
   .logo {
     display: block;
+  }
+
+  .about-header {
+    background-image: url(../images/text-bg.jpeg);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .about-header h3 {
